@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A10C26772D36363D007C8B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10C265D2D36363B007C8B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10C26642D36363B007C8B7F;
+			remoteInfo = UniTimetable;
+		};
+		A10C26812D36363D007C8B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10C265D2D36363B007C8B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10C26642D36363B007C8B7F;
+			remoteInfo = UniTimetable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A10C26652D36363B007C8B7F /* UniTimetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniTimetable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10C26762D36363D007C8B7F /* UniTimetableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniTimetableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10C26802D36363D007C8B7F /* UniTimetableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniTimetableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A10C26672D36363B007C8B7F /* UniTimetable */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniTimetable;
+			sourceTree = "<group>";
+		};
+		A10C26792D36363D007C8B7F /* UniTimetableTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniTimetableTests;
+			sourceTree = "<group>";
+		};
+		A10C26832D36363D007C8B7F /* UniTimetableUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniTimetableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10C26622D36363B007C8B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10C26732D36363D007C8B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10C267D2D36363D007C8B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10C265C2D36363B007C8B7F = {
+			isa = PBXGroup;
+			children = (
+				A10C26672D36363B007C8B7F /* UniTimetable */,
+				A10C26792D36363D007C8B7F /* UniTimetableTests */,
+				A10C26832D36363D007C8B7F /* UniTimetableUITests */,
+				A10C26662D36363B007C8B7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10C26662D36363B007C8B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10C26652D36363B007C8B7F /* UniTimetable.app */,
+				A10C26762D36363D007C8B7F /* UniTimetableTests.xctest */,
+				A10C26802D36363D007C8B7F /* UniTimetableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10C26642D36363B007C8B7F /* UniTimetable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10C268A2D36363D007C8B7F /* Build configuration list for PBXNativeTarget "UniTimetable" */;
+			buildPhases = (
+				A10C26612D36363B007C8B7F /* Sources */,
+				A10C26622D36363B007C8B7F /* Frameworks */,
+				A10C26632D36363B007C8B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A10C26672D36363B007C8B7F /* UniTimetable */,
+			);
+			name = UniTimetable;
+			packageProductDependencies = (
+			);
+			productName = UniTimetable;
+			productReference = A10C26652D36363B007C8B7F /* UniTimetable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10C26752D36363D007C8B7F /* UniTimetableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10C268D2D36363D007C8B7F /* Build configuration list for PBXNativeTarget "UniTimetableTests" */;
+			buildPhases = (
+				A10C26722D36363D007C8B7F /* Sources */,
+				A10C26732D36363D007C8B7F /* Frameworks */,
+				A10C26742D36363D007C8B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10C26782D36363D007C8B7F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A10C26792D36363D007C8B7F /* UniTimetableTests */,
+			);
+			name = UniTimetableTests;
+			packageProductDependencies = (
+			);
+			productName = UniTimetableTests;
+			productReference = A10C26762D36363D007C8B7F /* UniTimetableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A10C267F2D36363D007C8B7F /* UniTimetableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10C26902D36363D007C8B7F /* Build configuration list for PBXNativeTarget "UniTimetableUITests" */;
+			buildPhases = (
+				A10C267C2D36363D007C8B7F /* Sources */,
+				A10C267D2D36363D007C8B7F /* Frameworks */,
+				A10C267E2D36363D007C8B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10C26822D36363D007C8B7F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A10C26832D36363D007C8B7F /* UniTimetableUITests */,
+			);
+			name = UniTimetableUITests;
+			packageProductDependencies = (
+			);
+			productName = UniTimetableUITests;
+			productReference = A10C26802D36363D007C8B7F /* UniTimetableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10C265D2D36363B007C8B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A10C26642D36363B007C8B7F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A10C26752D36363D007C8B7F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A10C26642D36363B007C8B7F;
+					};
+					A10C267F2D36363D007C8B7F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A10C26642D36363B007C8B7F;
+					};
+				};
+			};
+			buildConfigurationList = A10C26602D36363B007C8B7F /* Build configuration list for PBXProject "UniTimetable" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10C265C2D36363B007C8B7F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A10C26662D36363B007C8B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10C26642D36363B007C8B7F /* UniTimetable */,
+				A10C26752D36363D007C8B7F /* UniTimetableTests */,
+				A10C267F2D36363D007C8B7F /* UniTimetableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10C26632D36363B007C8B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10C26742D36363D007C8B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10C267E2D36363D007C8B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10C26612D36363B007C8B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10C26722D36363D007C8B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10C267C2D36363D007C8B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10C26782D36363D007C8B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10C26642D36363B007C8B7F /* UniTimetable */;
+			targetProxy = A10C26772D36363D007C8B7F /* PBXContainerItemProxy */;
+		};
+		A10C26822D36363D007C8B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10C26642D36363B007C8B7F /* UniTimetable */;
+			targetProxy = A10C26812D36363D007C8B7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A10C26882D36363D007C8B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10C26892D36363D007C8B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A10C268B2D36363D007C8B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniTimetable/UniTimetable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniTimetable/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pranavhemanth.UniTimetable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10C268C2D36363D007C8B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniTimetable/UniTimetable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniTimetable/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pranavhemanth.UniTimetable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10C268E2D36363D007C8B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pranavhemanth.UniTimetableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniTimetable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UniTimetable";
+			};
+			name = Debug;
+		};
+		A10C268F2D36363D007C8B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pranavhemanth.UniTimetableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniTimetable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UniTimetable";
+			};
+			name = Release;
+		};
+		A10C26912D36363D007C8B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pranavhemanth.UniTimetableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UniTimetable;
+			};
+			name = Debug;
+		};
+		A10C26922D36363D007C8B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pranavhemanth.UniTimetableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UniTimetable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10C26602D36363B007C8B7F /* Build configuration list for PBXProject "UniTimetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10C26882D36363D007C8B7F /* Debug */,
+				A10C26892D36363D007C8B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10C268A2D36363D007C8B7F /* Build configuration list for PBXNativeTarget "UniTimetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10C268B2D36363D007C8B7F /* Debug */,
+				A10C268C2D36363D007C8B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10C268D2D36363D007C8B7F /* Build configuration list for PBXNativeTarget "UniTimetableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10C268E2D36363D007C8B7F /* Debug */,
+				A10C268F2D36363D007C8B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10C26902D36363D007C8B7F /* Build configuration list for PBXNativeTarget "UniTimetableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10C26912D36363D007C8B7F /* Debug */,
+				A10C26922D36363D007C8B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10C265D2D36363B007C8B7F /* Project object */;
+}
