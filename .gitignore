@@ -1,0 +1,16 @@
+//
+//  .gitignore
+//  UniTimetable
+//
+//  Created by Pranav Hemanth on 14/01/25.
+//
+
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserdatad
+*.xcuserdata
+*.xcodeproj
+DerivedData/
+build/

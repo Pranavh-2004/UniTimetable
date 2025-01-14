@@ -10,6 +10,9 @@
 		A10C269A2D363684007C8B7F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10C26992D363684007C8B7F /* WidgetKit.framework */; };
 		A10C269C2D363684007C8B7F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10C269B2D363684007C8B7F /* SwiftUI.framework */; };
 		A10C26AA2D363686007C8B7F /* UniTimetableWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10C26972D363684007C8B7F /* UniTimetableWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A14685B72D366C220068BAE9 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = A14685B62D366C1A0068BAE9 /* Readme.md */; };
+		A14685B92D366C300068BAE9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A14685B82D366C2A0068BAE9 /* LICENSE */; };
+		A14685BB2D366C570068BAE9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A14685BA2D366C510068BAE9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		A10C26972D363684007C8B7F /* UniTimetableWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UniTimetableWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10C26992D363684007C8B7F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		A10C269B2D363684007C8B7F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A14685B62D366C1A0068BAE9 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		A14685B82D366C2A0068BAE9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A14685BA2D366C510068BAE9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -132,6 +138,9 @@
 		A10C265C2D36363B007C8B7F = {
 			isa = PBXGroup;
 			children = (
+				A14685B62D366C1A0068BAE9 /* Readme.md */,
+				A14685B82D366C2A0068BAE9 /* LICENSE */,
+				A14685BA2D366C510068BAE9 /* .gitignore */,
 				A10C26672D36363B007C8B7F /* UniTimetable */,
 				A10C26792D36363D007C8B7F /* UniTimetableTests */,
 				A10C26832D36363D007C8B7F /* UniTimetableUITests */,
@@ -309,6 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14685BB2D366C570068BAE9 /* .gitignore in Resources */,
+				A14685B92D366C300068BAE9 /* LICENSE in Resources */,
+				A14685B72D366C220068BAE9 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
